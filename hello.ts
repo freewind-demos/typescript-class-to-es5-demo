@@ -22,3 +22,5 @@ async function myAdd() {
 }
 
 myAdd()
+
+window.alert('Hello')
