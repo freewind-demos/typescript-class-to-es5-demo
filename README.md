@@ -1,27 +1,11 @@
-TypeScript tsconfig.json Demo
-============================
+TypeScript "class" to ES5 Demo
+==============================
 
-`tsconfig.json`是typescript项目的说明文件，指定`tsc`所需要的各个参数。
+在typescript中使用了ES6的特性，比如`class`，如果想转成旧的JavaScript代码，应该怎么做？
+
+需要在`tsconfig.json`中设置`"target": "es5"`，它会就自动转换。如果设为`es6`的话，`class`语法会原样输出。
 
 ```
 npm install
 npx tsc
 ```
-
-You will see `hello.js` and `hello.js.map` generated.
-
-```
-node hello.js
-```
-
-It will print `Hello, TypeScript!`
-
-或者使用node-ts：
-
-```
-npx ts-node hello.ts
-```
-
-Resources
----------
-- tsconfig详解：<https://www.typescriptlang.org/docs/handbook/tsconfig-json.html>

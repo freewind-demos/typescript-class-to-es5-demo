@@ -1,3 +1,11 @@
-import {capitalize} from 'lodash';
+class Hello {
+    hello(name: string) {
+        console.log(`Hello, ${name}!`)
+    }
+}
 
-console.log("Hello, " + capitalize("typescript") + "!");
+const hello = new Hello();
+
+['typescript', 'class'].map(item => `${item}!`).forEach(item =>
+    hello.hello(item)
+)

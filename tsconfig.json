@@ -1,15 +1,12 @@
 {
   "compilerOptions": {
     "strict": true,
-    "target": "es6",
+    "target": "es5",
     "module": "commonjs",
     "noImplicitAny": true,
     "removeComments": true,
     "preserveConstEnums": true,
-    "sourceMap": true,
-    "types": [
-      "lodash"
-    ]
+    "sourceMap": true
   },
   "files": [
     "hello.ts"
