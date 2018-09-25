@@ -7,10 +7,13 @@
     "preserveConstEnums": true,
     "sourceMap": true,
     "lib": [
-      "es2015.promise",
       "es5",
-      "dom"
-    ]
+      "es2015.promise",
+      "dom",
+      "es2015.core",
+      "esnext"
+    ],
+    "downlevelIteration": true
   },
   "files": [
     "hello.ts"
