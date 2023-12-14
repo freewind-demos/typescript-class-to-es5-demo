@@ -1,12 +1,12 @@
 {
-  "scripts": {
-    "demo": "tsc && node hello.js"
-  },
-  "devDependencies": {
-    "@types/lodash": "4.14.106",
-    "@types/node": "^10.11.0",
-    "ts-node": "7.0.0",
-    "typescript": "3.0.1"
-  },
-  "dependencies": {}
+    "scripts": {
+        "start": "tsc && node hello.js"
+    },
+    "devDependencies": {
+        "@types/lodash": "4.14.106",
+        "@types/node": "^10.11.0",
+        "ts-node": "7.0.0",
+        "typescript": "3.0.1"
+    },
+    "dependencies": {}
 }
